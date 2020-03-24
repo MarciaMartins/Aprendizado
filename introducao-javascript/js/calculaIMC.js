@@ -65,9 +65,6 @@ function validaAltura(altura) {
 }
 
 function calculaIMC(peso,altura){
-  console.log(peso);
-  console.log(altura);
   var calculo = ((peso/(altura*altura)).toFixed(2));
-  console.log(calculo);
   return calculo;
 }
